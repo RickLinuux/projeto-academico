@@ -1,4 +1,4 @@
-![spring-boot](https://github.com/user-attachments/assets/f44f4e1f-7e08-48e3-80ac-bb07b3ac5225)# Projeto de Gerenciamento de Tarefas para Comunidade Online
+# Projeto de Gerenciamento de Tarefas para Comunidade Online
 
 ## Sumário
 1. [Introdução](#introdução) 
