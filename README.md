@@ -9,6 +9,7 @@
 6. [Resultados e Discussão](#resultados-e-discussão) ............................................................... 6
 7. [Conclusão](#conclusão) ......................................................................... 7
 8. [Referências](#referências) ....................................................................... 8
+9. [Diagrama de Classe](https://github.com/RickLinuux/projeto-academico/blob/main/diagrama-de-classe)
 
 ## Introdução
 
