@@ -22,7 +22,7 @@ A implementação desse sistema visa aumentar a produtividade e organização do
 
 ### Colaboradores principais do projeto:
 - Henrique Rocha Pereira – Desenvolvedor do Sistema
-- Vinicius Fernandes Amorim – Moderadora da Comunidade Online
+- Vinicius Fernandes Amorim – Moderador da Comunidade Online
 - Pessoas que fazem parte da comunidade – Público Alvo.
 
 Este projeto digital fornecerá aos usuários uma ferramenta prática e de fácil acesso, que será integrada à plataforma de comunicação da comunidade, garantindo que os membros possam gerenciar suas tarefas diretamente dentro do ambiente online que já utilizam para trocar informações e aprender. Além disso, o sistema permitirá feedback constante da comunidade, possibilitando melhorias contínuas conforme as necessidades forem surgindo.
