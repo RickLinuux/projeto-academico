@@ -1,5 +1,3 @@
-# Diagrama de Classes
-
 ```mermaid
 classDiagram
     class User {
@@ -40,35 +38,98 @@ classDiagram
         +User user
     }
 
+    class UserController {
+        +UserService userService
+        +PasswordEncoder passwordEncoder
+        +getCadastre(Model model)
+        +registerUser(User user)
+        +getLogin(Model model)
+        +loginUser()
+    }
+
+    class TaskController {
+        +TaskService taskService
+        +UserService userService
+        +getHomeTask(Model model)
+        +getCreateTask(Model model)
+        +createTask(Task task)
+        +detailTask(Long id, Model model)
+        +editTask(Long id, Model model)
+        +deleteTask(Long id)
+    }
+
+    class ProfileController {
+        +ProfileService profileService
+        +UserRepository userRepository
+        +AccessRepository accessRepository
+        +getProfile(Model model)
+    }
+
+    class UserRepository {
+        +findByUsername(String username)
+    }
+
+    class TaskRepository {
+        +findById(Long id)
+    }
+
+    class ProfileRepository {
+        +findAll()
+        +save(Profile profile)
+        +deleteById(Long id)
+    }
+
+    class AccessRepository {
+        +findByUser(User user)
+    }
+
+    class UserService {
+        +listAllUsers()
+        +saveUser(User user)
+        +deleteUser(Long id)
+        +getLoggedInUser() 
+    }
+
+    class TaskService {
+        +listAllTask()
+        +saveTask(Task task)
+        +deleteTask(Long id)
+        +searchTaskId(Long id)
+    }
+
+    class ProfileService {
+        +listAllProfile()
+        +saveProfile(Profile profile)
+        +deleteProfile(Long id)
+        +findProfileById(Long id)
+    }
+
     User "1" --> "many" Task : has
     User "1" --> "1" Profile : has
     User "1" --> "many" Access : has
+    UserController --> UserService : manages
+    TaskController --> TaskService : manages
+    ProfileController --> ProfileService : manages
+    UserController --> UserRepository : interacts
+    TaskController --> TaskRepository : interacts
+    ProfileController --> UserRepository : interacts
+    ProfileController --> AccessRepository : interacts
 ```
 
 ### Explicação do Diagrama:
 
-- **User**: Representa a entidade do usuário, contendo atributos como `idUser`, `username`, `email`,
-- `password`, uma lista de `Task`, e um `Profile`.
-- **Task**: Representa as tarefas atribuídas ao usuário, com atributos como `idTask`, `taskName`, `description`,
--  `date`, `reminderDate`, `status`, `taskImage`, e `taskImage64`.
-- **Profile**: Representa o perfil do usuário, contendo atributos como `idPerfil`, `nickname`, `avatar`,
-- `imagePrincipal`, e `imagem64`.
-- **Access**: Representa os acessos feitos pelo usuário, com atributos como `id` e `dataAcesso`.
-
+- **Classes de Modelo**: `User`, `Task`, `Profile`, e `Access` representam a estrutura básica de dados.
+- **Controladores**: `UserController`, `TaskController`, e `ProfileController` gerenciam a lógica da aplicação para as respectivas entidades.
+- **Repositórios**: `UserRepository`, `TaskRepository`, `ProfileRepository`, e `AccessRepository` são interfaces que definem as operações de acesso a dados.
+- **Serviços**: `UserService`, `TaskService`, e `ProfileService` encapsulam a lógica de negócios e interagem com os repositórios.
+  
 ### Relações:
 
-- Um `User` pode ter muitas `Task` (relação um-para-muitos).
-- Um `User` tem um único `Profile` (relação um-para-um).
-- Um `User` pode ter muitos `Access` (relação um-para-muitos).
+- Um `User` pode ter muitas `Task`, um único `Profile`, e muitos `Access`.
+- Os controladores gerenciam suas respectivas entidades e interagem com os serviços e repositórios correspondentes.
 
 ### Como Usar:
 
-1. **Ambiente de Suporte**: Para visualizar esse diagrama, você precisa de um ambiente que suporte o Mermaid,
-2. como alguns editores Markdown, plataformas de documentação (ex: GitHub, GitLab) ou ferramentas de geração de
-3. diagramas que suportam Mermaid.
-4. **Inserir o Diagrama**: Cole o código acima em seu documento Markdown, utilizando a sintaxe apropriada para o
-Mermaid, e visualize o diagrama.
-
-
-
+1. **Ambiente de Suporte**: Para visualizar o diagrama, você pode usar um ambiente que suporte Mermaid, como um editor Markdown compatível ou plataformas como GitHub e GitLab.
+2. **Inserir o Diagrama**: Cole o código acima em seu documento Markdown para visualizar o diagrama.
 
