@@ -162,19 +162,26 @@ Os resultados obtidos com a implementação do sistema foram positivos. Abaixo e
 
 Essa experiência proporcionou um grande aprendizado prático, principalmente em relação à importância de um desenvolvimento focado no usuário final. Aprendi a importância de ouvir as dores reais da comunidade e traduzir esses feedbacks em soluções tecnológicas eficazes. A combinação de teoria e prática foi fundamental para o sucesso do projeto.
 
-# 5. Ferramentas Utilizadas
-#### Maven
-<img src="https://github.com/user-attachments/assets/aed8099b-967d-48b4-b21b-93004dc55d21" alt="maven" width="300" height="300" />
+## 5. Ferramentas Utilizadas
 
-#### MariaDB
-<img src="https://github.com/user-attachments/assets/cdec2c3c-a797-434f-96ec-0c3365d80c7b" alt="mariadb" width="300" height="300" />
-
-#### Java
-<img src="https://github.com/user-attachments/assets/379e5ec7-c9b2-449c-acb3-d372f41379db" alt="java" width="300" height="300" />
-
-#### Spring Framework
-<img src="https://th.bing.com/th/id/R.c254a24f66da4377a24e6477a6149fc6?rik=V%2fFl2MDQRi8uqw&pid=ImgRaw&r=0" alt="spring-framework" width="300" height="300" />
-
+<div style="display: flex; justify-content: space-around;">
+    <div>
+        <p><strong>Maven</strong></p>
+        <img src="https://github.com/user-attachments/assets/aed8099b-967d-48b4-b21b-93004dc55d21" alt="maven" width="300" height="300" />
+    </div>
+    <div>
+        <p><strong>MariaDB</strong></p>
+        <img src="https://github.com/user-attachments/assets/cdec2c3c-a797-434f-96ec-0c3365d80c7b" alt="mariadb" width="300" height="300" />
+    </div>
+    <div>
+        <p><strong>Java</strong></p>
+        <img src="https://github.com/user-attachments/assets/379e5ec7-c9b2-449c-acb3-d372f41379db" alt="java" width="300" height="300" />
+    </div>
+    <div>
+        <p><strong>Spring Framework</strong></p>
+        <img src="https://th.bing.com/th/id/R.c254a24f66da4377a24e6477a6149fc6?rik=V%2fFl2MDQRi8uqw&pid=ImgRaw&r=0" alt="spring-framework" width="300" height="300" />
+    </div>
+</div>
 
 
 
