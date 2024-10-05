@@ -1,10 +1,11 @@
 # Projeto de Gerenciamento de Tarefas para Comunidade Online
 
 ## Sumário
-1. [Introdução](#introdução) ............................................................................... 1
-2. [Problemas Identificados na Comunidade Online](#problemas-identificados-na-comunidade-online) .................. 2
-3. [Situação-Problema e Impacto na Vida Social, Educacional e Econômica](#situação-problema-e-impacto-na-vida-social-educacional-e-econômica) ... 3
+1. [Introdução](#introdução) 
+2. [Problemas Identificados na Comunidade Online](#problemas-identificados-na-comunidade-online) 
+3. [Situação-Problema e Impacto na Vida Social, Educacional e Econômica](#situação-problema-e-impacto-na-vida-social-educacional-e-econômica) 
 4. [Diagrama de Classe](https://github.com/RickLinuux/projeto-academico/blob/main/diagrama-de-classe.md)
+5. [Ferramentas Utilizadas](#ferreamentas-utilizadas)
 
 ## Introdução
 
@@ -161,4 +162,8 @@ Os resultados obtidos com a implementação do sistema foram positivos. Abaixo e
 
 Essa experiência proporcionou um grande aprendizado prático, principalmente em relação à importância de um desenvolvimento focado no usuário final. Aprendi a importância de ouvir as dores reais da comunidade e traduzir esses feedbacks em soluções tecnológicas eficazes. A combinação de teoria e prática foi fundamental para o sucesso do projeto.
 
-###
+### 5. Ferramentas Utilizadas
+
+<img src="https://github.com/user-attachments/assets/aed8099b-967d-48b4-b21b-93004dc55d21" alt="mavem" width="100" height="100" />
+
+
