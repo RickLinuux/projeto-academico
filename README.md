@@ -1,4 +1,4 @@
-# Projeto de Gerenciamento de Tarefas para Comunidade Online
+![spring-boot](https://github.com/user-attachments/assets/f44f4e1f-7e08-48e3-80ac-bb07b3ac5225)# Projeto de Gerenciamento de Tarefas para Comunidade Online
 
 ## Sumário
 1. [Introdução](#introdução) 
@@ -163,7 +163,18 @@ Os resultados obtidos com a implementação do sistema foram positivos. Abaixo e
 Essa experiência proporcionou um grande aprendizado prático, principalmente em relação à importância de um desenvolvimento focado no usuário final. Aprendi a importância de ouvir as dores reais da comunidade e traduzir esses feedbacks em soluções tecnológicas eficazes. A combinação de teoria e prática foi fundamental para o sucesso do projeto.
 
 ### 5. Ferramentas Utilizadas
-
+#### Mavem
 <img src="https://github.com/user-attachments/assets/aed8099b-967d-48b4-b21b-93004dc55d21" alt="mavem" width="100" height="100" />
+
+#### MariaDB
+<img src="https://github.com/user-attachments/assets/cdec2c3c-a797-434f-96ec-0c3365d80c7b" alt="mariadb" width="100" height="100" />
+
+#### Java
+<img src="https://github.com/user-attachments/assets/379e5ec7-c9b2-449c-acb3-d372f41379db" alt="java" width="100" height="100" />
+
+#### Spring Framework
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Spring_Framework_Logo.svg" alt="spring-boot" width="100" height="100" />
+
+
 
 
