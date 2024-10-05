@@ -4,12 +4,7 @@
 1. [Introdução](#introdução) ............................................................................... 1
 2. [Problemas Identificados na Comunidade Online](#problemas-identificados-na-comunidade-online) .................. 2
 3. [Situação-Problema e Impacto na Vida Social, Educacional e Econômica](#situação-problema-e-impacto-na-vida-social-educacional-e-econômica) ... 3
-4. [Objetivos da Atividade de Extensão](#objetivos-da-atividade-de-extensão) ....................................... 4
-5. [Metodologia](#metodologia) ........................................................................ 5
-6. [Resultados e Discussão](#resultados-e-discussão) ............................................................... 6
-7. [Conclusão](#conclusão) ......................................................................... 7
-8. [Referências](#referências) ....................................................................... 8
-9. [Diagrama de Classe](https://github.com/RickLinuux/projeto-academico/blob/main/diagrama-de-classe)
+4. [Diagrama de Classe](https://github.com/RickLinuux/projeto-academico/blob/main/diagrama-de-classe.md)
 
 ## Introdução
 
@@ -165,3 +160,5 @@ Os resultados obtidos com a implementação do sistema foram positivos. Abaixo e
 4. **Desafios enfrentados**: Um dos principais desafios foi o desenvolvimento de uma interface amigável, que exigiu vários ajustes com base no feedback dos usuários. Outro obstáculo foi a diversidade de dispositivos usados pela comunidade, o que exigiu garantir que o sistema fosse responsivo e funcionasse bem em diferentes plataformas.
 
 Essa experiência proporcionou um grande aprendizado prático, principalmente em relação à importância de um desenvolvimento focado no usuário final. Aprendi a importância de ouvir as dores reais da comunidade e traduzir esses feedbacks em soluções tecnológicas eficazes. A combinação de teoria e prática foi fundamental para o sucesso do projeto.
+
+###
